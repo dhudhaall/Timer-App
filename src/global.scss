@@ -1,0 +1,73 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+  font-family: digital-7;
+  src: url('./assets/fonts/digital-7/digital-7\ \(italic\).ttf');
+  font-weight: bold;
+}
+
+.time{
+  margin: auto;
+  font-family: 'digital-7';
+  font-size: 90px;
+  color: #F71C00;
+}
+
+.stop-watch-time{
+  font-family: 'digital-7';
+  font-size: 143px;
+  color: #F71C00;
+  text-align: center;
+  margin: 40px;
+}
+
+.countdown-text{
+  font-family: 'digital-7';
+  color: #F71C00;
+}
+
+ion-toggle {
+  --background: gray;
+  --background-checked: #F71C00;
+
+  --handle-background: #F71C00;
+  --handle-background-checked: gray;
+}
+
+ion-fab-button{
+  color:#F71C00
+}
+
+.landscape{
+  margin:auto
+}
+
+.lapno{
+  color: #2D92F8;
+  margin-right: 30px;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "WorkoutTimer",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
